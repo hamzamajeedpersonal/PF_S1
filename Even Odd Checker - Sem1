@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    
+int number_1;
+cout << "Enter Number 1 :"; 
+cin >> number_1;
+if (number_1 % 2 == 0)
+cout << "Result : Even";
+else
+cout << "Result : Odd";
+
+    return 0;
+}
