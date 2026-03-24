@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    
+float number_1 , number_2;
+char op;
+cout << "Enter First Number :";
+cin >> number_1;
+cout << "Enter Operator :";
+cin >> op;
+cout << "Enter Second Number :";
+cin >> number_2;
+
+if (op == '+')
+ cout << "Result :" << number_1 + number_2;
+else if (op == '-')
+ cout << "Result :" << number_1 - number_2;
+else if (op == '*')
+ cout << "Result :" << number_1 * number_2;
+else if (op == '/')
+ cout << "Result :" << number_1 / number_2;
+else 
+ cout << "Invalid Operator";
+    return 0;
+}
