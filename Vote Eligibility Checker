@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    
+int a;
+char op;
+
+cout<<"Enter Age:\n";cin>>a;
+
+//
+
+if (a>=18)
+cout<<"Eligible\t To\t Vote \n";
+else
+cout<<"Not Eligible";
+return 0;
+}
