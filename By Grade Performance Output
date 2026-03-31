@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    char grade; // Just Take Little Help From Gemini In This Step
+    cout << "Enter Your Grade ( A ,B ,C ,D or F ) :\t";
+    cin >> grade;
+        switch (grade) {
+            case 'A': cout << "Excellent"; break;
+            case 'B': cout << "Welldone"; break;
+            case 'C': cout << "Good Job"; break;
+            case 'D': cout << "Passed ! Need Improvement"; break;
+            case 'F': cout << "Better Luck Next Time"; break;
+            default: cout << "Invalid Input ! Use (A-B-C-D-F) \n";
+        }
+
+    return 0;
+}
