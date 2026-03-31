@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{    
+    
+double obtained_marks; //marks can be in fraction so thats why float is used
+int total_marks=100;
+cout<<"Enter The Marks :\t";
+cin>>obtained_marks;
+
+// Logic 
+if (obtained_marks>=50)
+cout<<"Pass";
+else 
+cout<<"Fail";
+
+return 0;
+}
