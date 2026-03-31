@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{ 
+    char choice;
+    string pizza, burger, sandwich;
+
+    cout<<"\t---------Menu---------\t\n";
+    cout<<"1. Pizza    --- 350 Rs/-\n2. Burger   --- 423 Rs/-\n3. Sandwich --- 342 Rs/-\n";
+    cout<<"\nEnter Your Choice:\t";
+    cin>>choice;
+
+    switch (choice) {
+        case '1': cout<<"Pizza 350 Rs\n"; break;
+        case '2': cout<<"Burger 423 Rs\n"; break; 
+        case '3': cout<<"Sandwich 342 Rs\n"; break; 
+        default: cout<<"Invalid Choice! Select Choice From The Menu\n"; break;
+    }
+    return 0;
+}
