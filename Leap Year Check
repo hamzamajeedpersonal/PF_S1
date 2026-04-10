@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int a;
+cout << "Enter Year :";
+cin >>a;
+{
+if (a%100==0)
+{
+    if (a%400==0)
+    cout << "The Year Is Leap\b";
+    else 
+    cout << "The Year Is Not Leap"; }
+else { 
+    if (a%4==0)
+    cout <<"The Year Is Leap";
+    else 
+    cout <<"The Year Is Not Leap";
+}
+}
+return 0;
+}
