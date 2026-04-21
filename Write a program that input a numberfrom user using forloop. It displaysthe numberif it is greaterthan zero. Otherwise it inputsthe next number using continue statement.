@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main(){
+int n, iterations;
+cout << "How Many Numbers You Want To Enter:";
+cin >> iterations;
+for(int i = 1; i <= iterations; i++){
+cout << "Enter Number" << i << ":";
+cin >> n;
+if (n <= 0){
+continue;
+}
+cout << "Display:" << n << "is a positive number." << endl;
+}
+return 0;
+}
