@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main(){
+int n,rev = 0, orig;
+cout << "Enter The Numeber:\t";
+cin >> n;
+orig = n;
+while(n != 0){
+rev = rev * 10 + n % 10;
+n /= 10;
+}
+if (orig == rev)
+cout << "The NumberIs Palindrome";
+else
+cout << "The NumberIs Not Palindrome";
+return 0;
+}
