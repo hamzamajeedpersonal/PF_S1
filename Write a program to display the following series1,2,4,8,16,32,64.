@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main(){
+int limit=64;
+int n = 1;
+cout << "Series:";
+while (n <= limit){
+cout << n;
+if (n * 2 <= limit){
+cout << ",";
+}
+n = n * 2;
+}
+return 0;
+}
